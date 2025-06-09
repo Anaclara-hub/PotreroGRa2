@@ -1,16 +1,32 @@
-
-*{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+JP:wght@100..900&display=swap');
+/*.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-
+*/
 h1 {
-  color: #82abd4;
+  font-family: 'Merriweather', serif;
+  color:#9159d1;
 }
-
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  color:#380219
+}
+a {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 h2 {
-  color: #430da7;
+  color: #c0363d;
+}
+body {
+  background-color:rgb(252, 186, 196)
+}
+ul,ol {
+    font-family: "Noto Sans JP", sans-serif;
+    color :rgb(252, 108, 12)
 }
 
-.descripcion {
-  color: #e982ad; 
-}
